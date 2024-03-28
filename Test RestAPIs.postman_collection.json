@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "a20140b7-4c3a-40cd-8a79-1d4d9eed7a97",
+		"name": "Test RestAPIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30059711",
+		"_collection_link": "https://mule-log-team.postman.co/workspace/Mule-Team~0342735c-5b28-4773-8c81-799bf23aae6e/collection/30059711-a20140b7-4c3a-40cd-8a79-1d4d9eed7a97?action=share&source=collection_link&creator=30059711"
+	},
+	"item": [
+		{
+			"name": "get employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dummy.restapiexample.com/api/v1/employees",
+					"protocol": "https",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
